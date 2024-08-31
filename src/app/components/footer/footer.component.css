@@ -1,0 +1,7 @@
+.footer-subtext{
+    font-size: 15px;
+    font-weight: 500;
+    --bs-text-opacity: 1;
+    margin-bottom: 50px;
+    color: gray !important;
+}
