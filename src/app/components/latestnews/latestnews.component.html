@@ -11,15 +11,20 @@
     </div>
   </div>
   <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col" *ngFor="let card of cards">
-      <div class="card h-100 shadow-sm border-0 me-3">
+    <div class="col mb-4" *ngFor="let card of cards">
+      <div class="card h-100 border-0 me-3">
         <div class="card-body">
           <small class="text-muted small" style="font-size: 10px"
             >• {{ card.category }}</small
           >
           <h5 class="card-title">{{ card.title }}</h5>
         </div>
-        <div style="border-radius: 15px; box-shadow: 20px 20px 0px">
+        <div
+          [ngStyle]="{
+            'border-radius': getStyle(card.styling, 'border-radius'),
+            'box-shadow': getStyle(card.styling, 'box-shadow')
+          }"
+        >
           <img [src]="card.image" class="card-img-bottom" alt="Image" />
         </div>
       </div>
