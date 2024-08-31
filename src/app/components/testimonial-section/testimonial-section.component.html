@@ -1,0 +1,40 @@
+<!-- testimonial-section.component.html -->
+<div class="container-fluid bg-primary text-white py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Left column with headline and CTA -->
+      <div class="col-md-4 pe-md-5">
+        <div class="mb-3">
+          <span class="badge bg-danger px-3 py-2 rounded-pill">Built Exclusively For You</span>
+        </div>
+        <h2 class="display-4 text-white fw-bold mb-4">Don't take our word for it. See what our clients say.</h2>
+        <p class="lead text-black-50">
+          <span class="col-12 col-sm-10 col-md-10 col-xxl-9 fw-medium">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</span>
+          </p>
+        <button class="btn btn-light px-4 py-2">
+          Learn More <i class="bi bi-arrow-right ms-2"></i>
+        </button>
+      </div>
+      
+      <!-- Right column with testimonials grid -->
+      <div class="col-md-8">
+        <div class="row g-4">
+          <div class="col-md-6" *ngFor="let testimonial of testimonials">
+            <div class="card h-100 border-0">
+              <div class="card-body">
+                <p class="card-text mb-4">{{ testimonial.quote }}</p>
+                <div class="d-flex align-items-center">
+                  <img [src]="testimonial.avatarUrl" class="rounded-circle me-3" width="50" height="50" [alt]="testimonial.name">
+                  <div>
+                    <h5 class="card-title mb-0">{{ testimonial.name }}</h5>
+                    <p class="card-subtitle text-muted">{{ testimonial.company }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>

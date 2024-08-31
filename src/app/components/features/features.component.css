@@ -1,0 +1,17 @@
+.dashed-line {
+  border: none;
+  border-top: 2px dashed #000;
+  /* You can change the color and thickness */
+  margin: 40px 0;
+  /* Adjust the margin as needed */
+}
+
+
+.card {
+  background-color: white;
+  color: #333;
+}
+
+.badge {
+  font-size: 0.8rem;
+}

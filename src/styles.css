@@ -10,3 +10,9 @@
     /* Slightly darker maroon for hover effect */
     border-color: #600000;
 }
+
+.custom-badge {
+    color: #5799a9;
+    background-color: #dce6ff;
+}
+

@@ -6,6 +6,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 
 @NgModule({
   declarations: [
@@ -14,15 +15,11 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     FeaturesComponent,
     TestimonialsComponent,
-    FooterComponent
+    FooterComponent,
+    TestimonialSectionComponent
   ],
   imports: [
     BrowserModule,
-    HeaderComponent,
-    BannerComponent,
-    FeaturesComponent,
-    TestimonialsComponent,
-    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
