@@ -9,11 +9,12 @@ import { LatestnewsComponent } from './components/latestnews/latestnews.componen
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
+import { FrequetlyAskedComponent } from './components/frequetly-asked/frequetly-asked.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, TestimonialsComponent, FooterComponent, FeaturesComponent, BannerComponent,LatestnewsComponent, TestimonialSectionComponent, ContactFormComponent, NewsletterComponent],
+  imports: [RouterOutlet, HeaderComponent, TestimonialsComponent, FooterComponent, FeaturesComponent, BannerComponent,LatestnewsComponent, TestimonialSectionComponent, ContactFormComponent, NewsletterComponent, FrequetlyAskedComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
