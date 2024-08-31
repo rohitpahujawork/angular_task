@@ -5,12 +5,13 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { FooterComponent } from './components/footer/footer.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { LatestnewsComponent } from './components/latestnews/latestnews.component';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, TestimonialsComponent, FooterComponent, FeaturesComponent, BannerComponent, TestimonialSectionComponent],
+  imports: [RouterOutlet, HeaderComponent, TestimonialsComponent, FooterComponent, FeaturesComponent, BannerComponent,LatestnewsComponent, TestimonialSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
