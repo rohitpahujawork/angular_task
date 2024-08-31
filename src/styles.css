@@ -1,0 +1,12 @@
+.btn-maroon {
+    background-color: #9b2315;
+    /* Maroon color */
+    border-color: #9b2315;
+    /* Match the border color to the background */
+}
+
+.btn-maroon:hover {
+    background-color: #600000;
+    /* Slightly darker maroon for hover effect */
+    border-color: #600000;
+}
