@@ -1,0 +1,56 @@
+<div class="container">
+<div class="container-fluid bg-light py-5 rounded-4">
+  <div class="row px-5">
+    <div class="col-md-6">
+      <p class="lead text-black-50">
+        <span class="col-12 col-sm-10 col-md-10 col-xxl-9 fw-medium">CONTACT US</span>
+        </p>
+      <p class="display-6 text-black fw-bold mb-4">Have an prject in mind?</p>
+      <p class="lead text-black-50 m-0">
+        <span class="col-12 col-sm-10 col-md-10 col-xxl-9 fw-medium">The right move at the right time saves your investment. </span>
+        </p>
+      <p class="lead text-black-50">
+        <span class="col-12 col-sm-10 col-md-10 col-xxl-9 fw-medium">live the dream of expanding your business.</span>
+        </p>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end align-items-start">
+      <img class="wave" src="assets/wave.png" alt="wave">
+    </div>
+    </div>
+  <div class="row px-5">
+    <div class="col-md-6">
+      <div class="mt-5">
+        <h4 class="mb-4" >Agon Studio</h4>
+        <p>4517 Washington Ave.<br>Manchester, Kentucky 39495</p>
+        <p>(239) 555-0108</p>
+        <a href="mailto:contact@agon.com">contact&#64;agon.com</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+        <div class="row mb-3" >
+          <div class="col" >
+            <input type="text" class="form-control form-control-lg" formControlName="name" placeholder="Enter your name">
+          </div>
+          <div class="col" >
+            <input type="text" class="form-control form-control-lg" formControlName="company" placeholder="Company (optional)">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col" >
+            <input type="email" class="form-control form-control-lg" formControlName="email" placeholder="Your email">
+          </div>
+          <div class="col" >
+            <input type="tel" class="form-control form-control-lg" formControlName="phone" placeholder="Phone number">
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control form-control-lg" rows="4" formControlName="message" placeholder="Tell us about yourself"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message →</button>
+        <small class="d-block mt-2 text-muted">By clicking contact us button, you agree our terms and policy.</small>
+      </form>
+    </div>
+  </div>
+</div>
+</div>

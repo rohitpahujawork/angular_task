@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: #1f2937;
+  border-color: #1f2937;
+}
+
+.btn-primary:hover {
+  background-color: #374151;
+  border-color: #374151;
+}
+
+.wave {
+  position: relative;
+  right: 0px;
+  top: -33px;
+}
