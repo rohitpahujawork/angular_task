@@ -8,6 +8,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { FooterComponent } from './components/footer/footer.component';
 import { LatestnewsComponent } from './components/latestnews/latestnews.component';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
+import { FrequetlyAskedComponent } from './components/frequetly-asked/frequetly-asked.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TestimonialSectionComponent } from './components/testimonial-section/te
     FeaturesComponent,
     TestimonialsComponent,
     FooterComponent,
-    LatestnewsComponent
+    LatestnewsComponent,
+    FrequetlyAskedComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { TestimonialSectionComponent } from './components/testimonial-section/te
     TestimonialsComponent,
     FooterComponent,
     LatestnewsComponent
-    TestimonialSectionComponent
+    TestimonialSectionComponent,
+    FrequetlyAskedComponent
   ],
   imports: [
     BrowserModule,
