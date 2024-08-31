@@ -7,6 +7,7 @@ import { FeaturesComponent } from './components/features/features.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LatestnewsComponent } from './components/latestnews/latestnews.component';
+import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,10 @@ import { LatestnewsComponent } from './components/latestnews/latestnews.componen
     TestimonialsComponent,
     FooterComponent,
     LatestnewsComponent
+    TestimonialSectionComponent
+  ],
+  imports: [
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
